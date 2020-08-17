@@ -3,7 +3,7 @@
 Scenario: Report visitor trends during a week of operation
 
   Given The count of visitors for each day is recorded
-  When we have atleast two weeks data
+  When we have two or more weeks data
   Then Generate a trend report
 
 Scenario: Alert when seating capacity is full
