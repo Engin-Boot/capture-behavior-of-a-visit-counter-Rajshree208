@@ -4,7 +4,7 @@ Scenario: Show patient visits during working days and holidays
 
   Given A patient has an entry card
   When The patient visits the hospital
-  Then Show Patient visit 
+  Then Show Patient visit
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
