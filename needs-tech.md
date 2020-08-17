@@ -3,7 +3,7 @@
 Scenario: Recover across restarts of the server
 that runs the visit-counter
 
-  Given A server is available and accessible
+  Given A server is available and is accessible
   and we have a cache memory to copy the visit-counts
   When The server restarts
   Then Recover the visit-counters from the cache
