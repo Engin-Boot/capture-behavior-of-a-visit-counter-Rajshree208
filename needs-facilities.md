@@ -2,7 +2,7 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given The count of visitors for each day is recorded
+  Given We have the record for the visitor count for each day
   When we have two or more weeks data
   Then Generate a trend report
 
