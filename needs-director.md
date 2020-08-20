@@ -14,7 +14,7 @@ Scenario: Compute parking slots to reserve for visiting specialists
   
 Scenario: Show patient visits-counts per shifts
 
-  Given The sensor is able to make an entry for the visitor in the system 
+  Given The sensor is able to make an entry for the visitor in the system
   database and the system knows the schedule of the shifts
   When The director requests for fetching the data
   Then Visitor count increases by 1 and the backend stores the previous
