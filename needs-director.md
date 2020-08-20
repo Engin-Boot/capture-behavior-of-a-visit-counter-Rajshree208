@@ -17,5 +17,5 @@ Scenario: Show patient visits-counts per shifts
   Given The sensor is able to make an entry for the visitor in the system
   database and the system knows the schedule of the shifts
   When The director requests for fetching the data
-  Then Visitor count increases by 1 and the backend stores the previous
+  Then Visitor count increases by 1 and the back end stores the previous
   shift count and counter resets to 0 when the shift changes
